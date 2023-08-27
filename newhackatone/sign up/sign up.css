@@ -1,0 +1,38 @@
+
+/*persnol blog*/
+/* Reset some default styles */
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8814be; /* Background color of the navbar */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding around the navbar content */
+}
+
+/* Style for the navbar logo (side text) */
+.navbar-logo {
+    font-size: 24px; /* Font size for the side text */
+}
+
+/* Style for the login button */
+.login-button {
+    background-color: #18be09; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Padding around the button text */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+/* Style for the login button on hover */
+.login-button:hover {
+    background-color: #430d70; /* Darker background color on hover */
+}
